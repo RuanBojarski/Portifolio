@@ -1,76 +1,71 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!DOCTYPE html> <!-- Declaração do tipo de documento HTML -->
+<html lang="pt-BR"> <!-- Declaração da linguagem do documento -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruan Alexandre Bojarski</title>
+    <meta charset="UTF-8"> <!-- Configuração do conjunto de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuração de exibição em dispositivos móveis -->
+    <title>Ruan Alexandre Bojarski</title> <!-- Título da página exibido na aba do navegador -->
     <style>
+        /* Estilos CSS embutidos */
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
+            font-family: Arial, sans-serif; /* Define a fonte padrão para o corpo da página */
+            margin: 0; /* Remove margens externas */
+            padding: 0; /* Remove preenchimento externo */
         }
         header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
+            background-color: #333; /* Cor de fundo do cabeçalho */
+            color: #fff; /* Cor do texto no cabeçalho */
+            padding: 20px; /* Espaçamento interno no cabeçalho */
         }
         nav {
-            text-align: center;
+            text-align: center; /* Alinhamento do texto no centro */
         }
         nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 15px;
+            color: #fff; /* Cor dos links de navegação */
+            text-decoration: none; /* Remove sublinhado nos links */
+            margin: 0 15px; /* Espaçamento entre os links de navegação */
         }
         .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-        }
-        .content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
+            display: flex; /* Usa o modelo de caixa flexível para organizar elementos */
+            justify-content: space-between; /* Espaço uniforme entre elementos flexíveis */
+            align-items: center; /* Alinhamento vertical no centro */
+            padding: 20px; /* Espaçamento interno no container */
         }
         .description {
-            width: 50%;
-            padding: 20px;
+            width: 50%; /* Largura de 50% para a descrição */
+            padding: 20px; /* Espaçamento interno na descrição */
         }
         .image {
-            width: 50%;
+            width: 50%; /* Largura de 50% para a imagem */
         }
         footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
+            background-color: #333; /* Cor de fundo do rodapé */
+            color: #fff; /* Cor do texto no rodapé */
+            text-align: center; /* Alinhamento do texto no centro */
+            padding: 10px; /* Espaçamento interno no rodapé */
         }
     </style>
 </head>
 <body>
     <header>
         <nav>
-            <a href="#">Início</a>
-            <a href="#">Projetos</a>
-            <a href="#">Contato</a>
+            <a href="#">Início</a> <!-- Link de navegação para a página inicial -->
+            <a href="#">Projetos</a> <!-- Link de navegação para a página de projetos -->
+            <a href="#">Contatos</a> <!-- Link de navegação para a página de contatos -->
         </nav>
     </header>
-    <div class="container">
-        <div class="description">
-            <h1>Ruan Alexandre Bojarski</h1>
-            <p>Atualmente estou trabalhando como QA  </br> Tenho experiencia com: </br> Azure DevOps </br> Jira </br> UI.Vision RPA
-            </p>
-            <button>Ver mais</button>
+    <div class="container"> <!-- Container principal -->
+        <div class="description"> <!-- Seção de descrição -->
+            <h1>Ruan Alexandre Bojarski</h1> <!-- Título principal -->
+            <!-- Parágrafo de descrição com quebras de linha -->
+            <p>Atualmente estou trabalhando como QA <br> Tenho experiência com: <br> Azure DevOps <br> Jira <br> UI.Vision RPA</p>
+            <button>Ver mais</button> <!-- Botão "Ver mais" -->
         </div>
-        <div class="image">
-            <img src="perfil.jpg" width=50% height=50%>
+        <div class="image"> <!-- Seção de imagem -->
+            <img src="perfil.jpg" width=50% height=50%> <!-- Imagem de perfil -->
         </div>
     </div>
     <footer>
-        Tecnologias: HTML, CSS, JavaScript
+        Tecnologias: HTML, CSS, JavaScript <!-- Rodapé com lista de tecnologias -->
     </footer>
 </body>
 </html>
